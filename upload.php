@@ -7,7 +7,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_FILES['image'])) {
     $imageContent = file_get_contents($image);
 
     // Discord webhook URL (Replace with your actual Discord webhook URL)
-    $webhookUrl = 'https://discord.com/api/webhooks/1254703504245657635/qEYqFPXUo00HJF3cAms-UbxAOxSzS-CRLLUafOkFiTKlVrFGVv3wdwKToMM3eUDag8LN';
+    $webhookUrl = 'https://discord.com/api/webhooks/1306290063025373256/Tag94NBI4htnfb_tjZO9WRw4z-cSTKoNFfmIO50JOV8e7spf69ahEgKdTp3sPeJHrLA_';
 
     
     $boundary = uniqid();
